@@ -40,7 +40,7 @@ class _CopyPageState extends State<CopyPage> {
               padding: const EdgeInsets.all(15.0),
               child: Container(
                 width: double.infinity,
-                padding: const EdgeInsets.all(20),
+                padding: const EdgeInsets.all(15),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(15),
@@ -62,8 +62,9 @@ class _CopyPageState extends State<CopyPage> {
                         fontSize: 15,
                       ),
                     ),
+                    const Divider(),
                     const SizedBox(
-                      height: 40,
+                      height: 35,
                     ),
                     Text(widget.malumot),
                   ],
