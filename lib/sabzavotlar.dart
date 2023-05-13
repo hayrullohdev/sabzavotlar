@@ -25,80 +25,82 @@ class _SabzavotlarPageState extends State<SabzavotlarPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        children: [
-          Container(
-            height: kToolbarHeight,
-            decoration: const BoxDecoration(
-              color: Color(0xffbce8a8),
-              borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(15),
-                bottomRight: Radius.circular(15),
+    return SafeArea(
+      child: Scaffold(
+        body: Column(
+          children: [
+            Container(
+              height: kToolbarHeight,
+              decoration: const BoxDecoration(
+                color: Color(0xffbce8a8),
+                borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(15),
+                  bottomRight: Radius.circular(15),
+                ),
+              ),
+              child: Row(
+                children: [
+                  Image.asset("asset/lagotip.png"),
+                  Text(
+                    listtitle,
+                    style: const TextStyle(
+                      fontSize: 18,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
               ),
             ),
-            child: Row(
-              children: [
-                Image.asset("asset/lagotip.png"),
-                Text(
-                  listtitle,
-                  style: const TextStyle(
-                    fontSize: 18,
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ],
+            Expanded(
+              child: IndexedStack(
+                index: _selectedIndex,
+                children: widgetOptions,
+              ),
             ),
-          ),
-          Expanded(
-            child: IndexedStack(
-              index: _selectedIndex,
-              children: widgetOptions,
+          ],
+        ),
+        bottomNavigationBar: NavigationBar(
+          selectedIndex: _selectedIndex,
+          onDestinationSelected: (index) {
+            setState(() {
+              _selectedIndex = index;
+              if (_selectedIndex == 0) {
+                listtitle = "Sabzavotlar";
+              } else {
+                listtitle = "Mevalar";
+              }
+            });
+          },
+          destinations: const [
+            NavigationDestination(
+              selectedIcon: Icon(
+                Icons.energy_savings_leaf_sharp,
+                color: Colors.green,
+                size: 30,
+              ),
+              icon: Icon(
+                Icons.energy_savings_leaf_sharp,
+                color: Colors.grey,
+                size: 25,
+              ),
+              label: "",
             ),
-          ),
-        ],
-      ),
-      bottomNavigationBar: NavigationBar(
-        selectedIndex: _selectedIndex,
-        onDestinationSelected: (index) {
-          setState(() {
-            _selectedIndex = index;
-            if (_selectedIndex == 0) {
-              listtitle = "Sabzavotlar";
-            } else {
-              listtitle = "Mevalar";
-            }
-          });
-        },
-        destinations: const [
-          NavigationDestination(
-            selectedIcon: Icon(
-              Icons.energy_savings_leaf_sharp,
-              color: Colors.green,
-              size: 30,
+            NavigationDestination(
+              selectedIcon: Icon(
+                Icons.apple,
+                color: Colors.green,
+                size: 30,
+              ),
+              icon: Icon(
+                Icons.apple,
+                color: Colors.grey,
+                size: 25,
+              ),
+              label: "",
             ),
-            icon: Icon(
-              Icons.energy_savings_leaf_sharp,
-              color: Colors.grey,
-              size: 25,
-            ),
-            label: "",
-          ),
-          NavigationDestination(
-            selectedIcon: Icon(
-              Icons.apple,
-              color: Colors.green,
-              size: 30,
-            ),
-            icon: Icon(
-              Icons.apple,
-              color: Colors.grey,
-              size: 25,
-            ),
-            label: "",
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
