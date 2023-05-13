@@ -1,7 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:sabzavotlar/sabzavotlar.dart';
+import 'package:sabzavotlar/mevalar.dart';
+// import 'package:sabzavotlar/sabzavotlar.dart';
 
 class SpleshPage extends StatefulWidget {
   const SpleshPage({super.key});
@@ -18,7 +19,7 @@ class _SpleshPageState extends State<SpleshPage> {
       () => Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => const SabzavotlarPage(),
+          builder: (context) => const MevalarPage(),
         ),
       ),
     );

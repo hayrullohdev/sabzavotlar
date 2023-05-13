@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:sabzavotlar/copy_sabzavotlar.dart';
+import 'package:sabzavotlar/data.dart';
 
-import 'data.dart';
-
-class SabzavotlarPage extends StatefulWidget {
-  const SabzavotlarPage({super.key});
+class MevalarPage extends StatefulWidget {
+  const MevalarPage({super.key});
 
   @override
-  State<SabzavotlarPage> createState() => _SabzavotlarPageState();
+  State<MevalarPage> createState() => _MevalarPageState();
 }
 
-class _SabzavotlarPageState extends State<SabzavotlarPage> {
+class _MevalarPageState extends State<MevalarPage> {
   int _selectedIndex = 0;
 
   void _onItemTapped(int index) {
@@ -19,8 +18,7 @@ class _SabzavotlarPageState extends State<SabzavotlarPage> {
     });
   }
 
-  List<Map> list = lists;
-
+  final List<Map> _list = list;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,7 +37,7 @@ class _SabzavotlarPageState extends State<SabzavotlarPage> {
               children: [
                 Image.asset("asset/lagotip.png"),
                 const Text(
-                  "Sabzavotlar",
+                  "Mevalar",
                   style: TextStyle(
                     fontSize: 18,
                     color: Colors.white,
@@ -57,7 +55,7 @@ class _SabzavotlarPageState extends State<SabzavotlarPage> {
                     crossAxisCount: 2,
                     crossAxisSpacing: 15.0,
                     mainAxisSpacing: 15.0),
-                itemCount: list.length,
+                itemCount: _list.length,
                 itemBuilder: (context, index) {
                   return GestureDetector(
                     onTap: () {
@@ -66,10 +64,10 @@ class _SabzavotlarPageState extends State<SabzavotlarPage> {
                             context,
                             MaterialPageRoute(
                               builder: (context) => CopyPage(
-                                subtitles: list[index]["turi"],
-                                titles: list[index]["nomi"],
-                                image: list[index]["rasm"],
-                                malumot: list[index]["ma'lumot"],
+                                subtitles: _list[index]["turi"],
+                                titles: _list[index]["nomi"],
+                                image: _list[index]["rasm"],
+                                malumot: _list[index]["ma'lumot"],
                               ),
                             ));
                       });
@@ -88,19 +86,19 @@ class _SabzavotlarPageState extends State<SabzavotlarPage> {
                           ClipRRect(
                             borderRadius: BorderRadius.circular(15),
                             child: Image.asset(
-                              list[index]["rasm"],
+                              _list[index]["rasm"],
                               height: 80,
                               width: 50,
                             ),
                           ),
                           Text(
-                            list[index]["nomi"],
+                            _list[index]["nomi"],
                             style: const TextStyle(
                               fontWeight: FontWeight.bold,
                             ),
                           ),
                           Text(
-                            list[index]["turi"],
+                            _list[index]["turi"],
                           )
                         ],
                       ),
