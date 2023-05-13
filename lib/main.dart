@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// ignore: unused_import
 import 'package:sabzavotlar/sabzavotlar.dart';
 // ignore: unused_import
 import 'package:sabzavotlar/splesh.dart';
@@ -16,9 +17,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
+        fontFamily: "Open_Sans",
         primarySwatch: Colors.blue,
       ),
-      home: const SabzavotlarPage(),
+      home: const SpleshPage(),
     );
   }
 }

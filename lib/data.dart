@@ -1,6 +1,6 @@
 List<Map> lists = [
   {
-    "rasm": "asset/pomidor.jpg",
+    "rasm": "asset/pomidor.png",
     "nomi": "Pomidor",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -11,7 +11,7 @@ Pomidor ilk bor Amerika materigida kelib chiqqan. Keyinchalik ispanlar Amerikada
 Pomidor ham pishirilmasdan, ham turli taomlar va qaylalar yoki ichimliklar ingrediyenti sifatida isteʼmol qilinadi. Pomidor oʻsimligi odatda 1-3 metr balandlikkacha oʻsa oladi. Poyasi boʻsh boʻlib, koʻpincha yerda tarqalib va boshqa oʻsimliklarga chirmashib oʻsadi""",
   },
   {
-    "rasm": "asset/cucumber.jpg",
+    "rasm": "asset/cucumber.png",
     "nomi": "Bodring",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -19,7 +19,7 @@ Bodring – (lotincha: Cucumis sativus) bir yillik, oʻt oʻsimlik. Vatani — H
 """,
   },
   {
-    "rasm": "asset/peppers.jpg",
+    "rasm": "asset/peppers.png",
     "nomi": "Qalampir",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -27,7 +27,7 @@ Qalampir — Solanaceae (Ituzumdoshlarga) mansub chala buta, buta yoki koʻp yil
 """,
   },
   {
-    "rasm": "asset/potato.jpg",
+    "rasm": "asset/potato.png",
     "nomi": "Kartoshka",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -35,7 +35,7 @@ Kartoshka (lotincha: Solanum tuberosum L.) — Solanaceae (茄科, qié kē) oil
 """,
   },
   {
-    "rasm": "asset/istock.jpg",
+    "rasm": "asset/istock.png",
     "nomi": "Baqlajon",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -43,7 +43,7 @@ Baqlajon (lotincha: Solánum melongéna L. (o'simliklar oilasi: Solanaceae)) ko�
 """,
   },
   {
-    "rasm": "asset/carrot.jpg",
+    "rasm": "asset/carrot.png",
     "nomi": "Sabzi",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -51,7 +51,7 @@ Sabzini ilk marotaba Afg’onistonda iste’mol qilishgan bo’lib, u yerda u 4 
 """,
   },
   {
-    "rasm": "asset/cabbage.jpg",
+    "rasm": "asset/cabbage.png",
     "nomi": "Karam",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -76,7 +76,7 @@ Karam eng ko’p iste’mol qilinadigan sabzavotlardan biri hisoblanadi. Karamni
 """,
   },
   {
-    "rasm": "asset/beet.jpg",
+    "rasm": "asset/beet.png",
     "nomi": "Lavlagi",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -84,7 +84,7 @@ Lavlagi (Beta) — shoʻradoshlar oilasiga mansub bir, ikki yillik oʻtsimon oʻ
 """,
   },
   {
-    "rasm": "asset/radish.jpg",
+    "rasm": "asset/radish.png",
     "nomi": "Rediska",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -94,10 +94,10 @@ Oʻzbekistonda R.ning Qizil ulkan (serhosil, kechpishar, 40—50 kunda yetiladi,
 
 Zararkunandalari: karamguldoshlar burgalari, qandalalar va boshqa; kasalliklari: qora ildiz, fomoz, fuzarioz va boshqa
 
-Rafiqa Gʻanixoʻjayeva.""",
+""",
   },
   {
-    "rasm": "asset/salad leaf.jpg",
+    "rasm": "asset/salad_leaf.png",
     "nomi": "Salat bargi",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -110,7 +110,7 @@ Salat bargaining juda ko'p turlari mavjud. Ularning xar hil ranglari va shakllar
 Noyob tarkibi: minimal kaloriya va maksimal qiymatlar salat - bu past kalorili mahsulot (100 g tarkibida faqat 16 kkal mavjud), unga quyidagilar kiradi: vitamin C, PP, E, B1, B2, B6, B9, K, H, kolin, beta-karotin, kaliy, magniy, xlor, kaltsiy, oltingugurt, fosfor, rux, selen, temir, uglevodlar, kul, shakar, azotli moddalar, yog'lar, suv, kraxmal, oqsillar, xun tolasi.""",
   },
   {
-    "rasm": "asset/cauliflower.jpg",
+    "rasm": "asset/cauliflower.png",
     "nomi": "Gulkaram",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -121,7 +121,7 @@ Gulkaram (Brassica oleracea L. var botrytis L.) —karamdoshlar oilasiga mansub 
 """,
   },
   {
-    "rasm": "asset/chisnok.jpg",
+    "rasm": "asset/chisnok.png",
     "nomi": "Sarimsoq piyoz",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -129,7 +129,7 @@ Sarimsoq (Allium sativum) — piyozdoshlar oilasi piyozlar turkumiga mansub ikki
 """,
   },
   {
-    "rasm": "asset/onion.jpg",
+    "rasm": "asset/onion.png",
     "nomi": "Piloz",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -139,7 +139,7 @@ Eng koʻp tarqalgan turi osh P. (A. cepa L.) tuproq unumdorligiga gʻoyat talabc
 """,
   },
   {
-    "rasm": "asset/bell pepper.jpg",
+    "rasm": "asset/bell_pepper.png",
     "nomi": "Bulg'or qalampir",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -154,7 +154,7 @@ Qovoq — qovoqdoshlar oilasiga mansub bir va koʻp yillik oʻsimliklar turkumig
 """,
   },
   {
-    "rasm": "asset/gren onion.jpg",
+    "rasm": "asset/gren_onion.png",
     "nomi": "Ko'k piyoz",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -170,7 +170,7 @@ Shuningdek, yangi ko‘k piyoz ishtahani ochadi va taomni ko‘rkam qiladi. Ko�
 """,
   },
   {
-    "rasm": "asset/turnip.jpg",
+    "rasm": "asset/turnip.png",
     "nomi": "Shalg'om",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -180,7 +180,7 @@ Sholg'om yoki oq sholg'om (Brassica rapa) o'zining oq, go'shtli ildizi uchun but
 ];
 List<Map> list = [
   {
-    "rasm": "asset/olma.jpg",
+    "rasm": "asset/olma.png",
     "nomi": "Olma",
     "turi": "Meva",
     "ma'lumot": """
@@ -202,7 +202,7 @@ Anor Gʻarbiy Osiyodan keladi va qadim zamonlardan buyon qo‘llanib keladi. Hoz
 """,
   },
   {
-    "rasm": "asset/nok.jpg",
+    "rasm": "asset/nok.png",
     "nomi": "Nok",
     "turi": "Meva",
     "ma'lumot": """
@@ -210,7 +210,7 @@ Nashvati — xalq seleksiyasi. yoʻli bilan yetishtirilgan nok (olmurut) navlari
 """,
   },
   {
-    "rasm": "asset/uzum.jpg",
+    "rasm": "asset/uzum.png",
     "nomi": "Uzum",
     "turi": "Meva",
     "ma'lumot": """
@@ -222,7 +222,7 @@ Xom uzum tarkibida 81% suv, 18% uglevodlar, 1% protein va oz miqdorda yogʻ boʻ
 """,
   },
   {
-    "rasm": "asset/banan.jpg",
+    "rasm": "asset/banan.png",
     "nomi": "Banan",
     "turi": "Meva",
     "ma'lumot": """
@@ -230,7 +230,7 @@ Banan (Musa) — banansimonlar oilasiga mansub koʻp yillik tropik oʻsimlik. Va
 """,
   },
   {
-    "rasm": "asset/anjir.jpg",
+    "rasm": "asset/anjir.png",
     "nomi": "Anjir",
     "turi": "Meva",
     "ma'lumot": """
@@ -238,7 +238,7 @@ Anjir (Ficus carica L.) — tutdoshlar (anjirgullilar) oilasiga mansub subtropik
 """,
   },
   {
-    "rasm": "asset/lemon.jpg",
+    "rasm": "asset/lemon.png",
     "nomi": "Lemon",
     "turi": "Meva",
     "ma'lumot": """
@@ -246,7 +246,7 @@ Limon, limu (Citrus limon) — rutadoshlar (sitruslar turkumi)ga kiradigan doim 
 """,
   },
   {
-    "rasm": "asset/tropik.webp",
+    "rasm": "asset/apelsin.png",
     "nomi": "Apelsin",
     "turi": "Meva",
     "ma'lumot": """
@@ -254,7 +254,7 @@ Apelsin, poʻrtaxol (Citrus sinensis — gollandcha appelsien — aynan xitoy ol
 """,
   },
   {
-    "rasm": "asset/ananas.jpg",
+    "rasm": "asset/ananas.png",
     "nomi": "Ananas",
     "turi": "Meva",
     "ma'lumot": """
@@ -262,7 +262,7 @@ Ananas (Ananas) — ananasdoshlar (Bromeliaceae) oilasiga mansub oʻtlar turkumi
 """,
   },
   {
-    "rasm": "asset/kivi.jpg",
+    "rasm": "asset/kivi.png",
     "nomi": "Kivi",
     "turi": "Meva",
     "ma'lumot": """
@@ -272,7 +272,7 @@ Kivi birinchi bo'lib XII asrda "Song" sulolasi davrida yetishtirilgan[4]. XX asr
 """,
   },
   {
-    "rasm": "asset/qulpnay.jpg",
+    "rasm": "asset/qulpnay.png",
     "nomi": "Qulpinay",
     "turi": "Meva",
     "ma'lumot": """
@@ -286,7 +286,7 @@ Kasalliklari: qulupnay nema-todasi, kulrang chirish, oq-qoʻngʻir dogʻlanish.
 """,
   },
   {
-    "rasm": "asset/shaftoli.jpg",
+    "rasm": "asset/shaftoli.png",
     "nomi": "Shaftoli",
     "turi": "Meva",
     "ma'lumot": """
@@ -298,7 +298,7 @@ Bogʻdorchilikda, asosan, oddiy shaftoli navlari oʻstiriladi (boshqa turlaridan
 """,
   },
   {
-    "rasm": "asset/o'rik.jpg",
+    "rasm": "asset/orik.png",
     "nomi": "O'rik",
     "turi": "Meva",
     "ma'lumot": """
@@ -308,7 +308,7 @@ Oʻzbekistonda, asosan, oddiy Oʻ. turi ekiladi. Boʻyi 5–8 m, shoxshabbasi ke
 """,
   },
   {
-    "rasm": "asset/tut.jpg",
+    "rasm": "asset/tut.png",
     "nomi": "Tut",
     "turi": "Meva",
     "ma'lumot": """
