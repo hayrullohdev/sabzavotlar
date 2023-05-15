@@ -14,14 +14,14 @@ class _MevalarPageState extends State<MevalarPage> {
   final List<Map> _list = list;
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(15.0),
-      child: GridView.builder(
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, crossAxisSpacing: 15.0, mainAxisSpacing: 15.0),
-        itemCount: _list.length,
-        itemBuilder: (context, index) {
-          return GestureDetector(
+    return GridView.builder(
+      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 2, crossAxisSpacing: 15.0, mainAxisSpacing: 15.0),
+      itemCount: _list.length,
+      itemBuilder: (context, index) {
+        return Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: GestureDetector(
             onTap: () {
               setState(() {
                 Navigator.push(
@@ -51,8 +51,8 @@ class _MevalarPageState extends State<MevalarPage> {
                     borderRadius: BorderRadius.circular(15),
                     child: Image.asset(
                       _list[index]["rasm"],
-                      height: 85,
-                      width: 85,
+                      height: 80,
+                      width: 80,
                     ),
                   ),
                   Row(
@@ -77,9 +77,9 @@ class _MevalarPageState extends State<MevalarPage> {
                 ],
               ),
             ),
-          );
-        },
-      ),
+          ),
+        );
+      },
     );
   }
 }
