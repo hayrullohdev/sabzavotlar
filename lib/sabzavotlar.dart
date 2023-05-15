@@ -27,6 +27,7 @@ class _SabzavotlarPageState extends State<SabzavotlarPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.grey.shade100,
         body: Column(
           children: [
             Container(

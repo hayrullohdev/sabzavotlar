@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:sabzavotlar/data.dart';
 
@@ -36,45 +38,64 @@ class _MevalarPageState extends State<MevalarPage> {
                     ));
               });
             },
-            child: Container(
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(15),
-                border: Border.all(
-                  width: 2,
-                  color: Colors.grey.shade200,
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(15),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(15),
+                  border: Border.all(
+                    width: 2,
+                    color: Colors.grey.shade200,
+                  ),
                 ),
-              ),
-              child: Column(
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(15),
-                    child: Image.asset(
+                child: Stack(
+                  children: [
+                    Image.asset(
                       _list[index]["rasm"],
-                      height: 80,
-                      width: 80,
+                      fit: BoxFit.fill,
                     ),
-                  ),
-                  Row(
-                    children: [
-                      Text(
-                        _list[index]["nomi"],
-                        style: const TextStyle(
-                          fontWeight: FontWeight.bold,
-                        ),
+                    ClipRRect(
+                      child: BackdropFilter(
+                        filter: ImageFilter.blur(sigmaX: 15, sigmaY: 15),
+                        child: Container(),
                       ),
-                    ],
-                  ),
-                  Expanded(
-                    child: Row(
-                      children: [
-                        Text(
-                          _list[index]["turi"],
-                        ),
-                      ],
                     ),
-                  )
-                ],
+                    Padding(
+                      padding: const EdgeInsets.all(10),
+                      child: Column(
+                        children: [
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(15),
+                            child: Image.asset(
+                              _list[index]["rasm"],
+                              height: 80,
+                              width: 80,
+                            ),
+                          ),
+                          Row(
+                            children: [
+                              Text(
+                                _list[index]["nomi"],
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          ),
+                          Expanded(
+                            child: Row(
+                              children: [
+                                Text(
+                                  _list[index]["turi"],
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
