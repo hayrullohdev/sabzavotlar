@@ -1,53 +1,60 @@
 import 'package:flutter/material.dart';
 
-
 List<Map> category = [
   {
     "rasm": "asset/sabzavotlar.png",
     "nomi": "Sabzavotlar",
-    "color": const Color.fromARGB(255, 102, 167, 104),
+    "color1": const Color.fromARGB(255, 102, 167, 104),
+    "color2": const Color.fromARGB(255, 120, 209, 123),
     "page": sabzavot,
   },
   {
     "rasm": "asset/bargli_o_simlik.png",
     "nomi": "Bargli o'simliklar",
-    "color": const Color.fromARGB(255, 105, 156, 185),
+    "color1": const Color.fromARGB(255, 105, 156, 185),
+    "color2": const Color.fromARGB(255, 22, 127, 189),
     "page": bargliosimliklar,
   },
   {
     "rasm": "asset/gul.png",
     "nomi": "Gullar",
-    "color": Colors.blue,
+    "color1": Colors.blue,
+    "color2": const Color.fromARGB(255, 48, 126, 189),
     "page": gullar,
   },
   {
     "rasm": "asset/mevalar.png",
     "nomi": "Mevalar",
-    "color": const Color.fromARGB(255, 65, 148, 102),
+    "color1": const Color.fromARGB(255, 64, 189, 162),
+    "color2": const Color.fromARGB(255, 46, 155, 146),
     "page": mevalar,
   },
   {
-    "rasm": "asset/kaktus.png",
+    "rasm": "asset/aloe.png",
     "nomi": "Sukkulentlar",
-    "color": const Color.fromARGB(255, 123, 172, 101),
+    "color1": const Color.fromARGB(255, 97, 190, 100),
+    "color2": const Color.fromARGB(255, 123, 172, 101),
     "page": sukkulentlar,
   },
   {
-    "rasm": "asset/carrot.png",
+    "rasm": "asset/begona.png",
     "nomi": "Begona o'tlar",
-    "color": const Color.fromARGB(255, 123, 172, 101),
+    "color1": const Color.fromARGB(255, 112, 173, 84),
+    "color2": const Color.fromARGB(255, 59, 112, 35),
     "page": begona_o_tlar,
   },
   {
-    "rasm": "asset/cabbage.png",
+    "rasm": "asset/tree.png",
     "nomi": "Daraxtlar",
-    "color": const Color.fromARGB(255, 105, 156, 185),
+    "color1": const Color.fromARGB(255, 105, 156, 185),
+    "color2": const Color.fromARGB(255, 71, 144, 185),
     "page": daraxtlar,
   },
   {
-    "rasm": "asset/beet.png",
+    "rasm": "asset/leaf.png",
     "nomi": "Zaxarli o'simliklar",
-    "color": const Color.fromARGB(255, 136, 90, 21),
+    "color1": const Color.fromARGB(255, 136, 90, 21),
+    "color2": const Color.fromARGB(255, 150, 102, 31),
     "page": zaxarli_otlar,
   },
 ];

@@ -27,7 +27,7 @@ class _CategoryPageState extends State<CategoryPage> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) =>  ListlarPage(
+                        builder: (context) => ListlarPage(
                           data: categorylist[index]["page"],
                         ),
                       ));
@@ -36,7 +36,12 @@ class _CategoryPageState extends State<CategoryPage> {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
-                  color: categorylist[index]["color"],
+                  gradient: LinearGradient(
+                    colors: [
+                      category[index]["color1"],
+                      category[index]["color2"],
+                    ],
+                  ),
                   border: Border.all(
                     width: 2,
                     color: Colors.grey.shade200,
