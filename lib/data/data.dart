@@ -1,4 +1,49 @@
-List<Map> lists = [
+import 'package:flutter/material.dart';
+
+List<Map> category = [
+  {
+    "rasm": "asset/sabzavotlar.png",
+    "nomi": "Sabzavotlar",
+    "color": const Color.fromARGB(255, 102, 167, 104),
+  },
+  {
+    "rasm": "asset/bargli_o_simlik.png",
+    "nomi": "Bargli o'simliklar",
+    "color": const Color.fromARGB(255, 105, 156, 185),
+  },
+  {
+    "rasm": "asset/gul.png",
+    "nomi": "Gullar",
+    "color": Colors.blue,
+  },
+  {
+    "rasm": "asset/mevalar.png",
+    "nomi": "Mevalar",
+    "color": const Color.fromARGB(255, 65, 148, 102),
+  },
+  {
+    "rasm": "asset/kaktus.png",
+    "nomi": "Sukkulentlar",
+    "color": const Color.fromARGB(255, 123, 172, 101),
+  },
+  {
+    "rasm": "asset/carrot.png",
+    "nomi": "Begona o'tlar",
+    "color": const Color.fromARGB(255, 123, 172, 101),
+  },
+  {
+    "rasm": "asset/cabbage.png",
+    "nomi": "Daraxtlar",
+    "color": const Color.fromARGB(255, 105, 156, 185),
+  },
+  {
+    "rasm": "asset/beet.png",
+    "nomi": "Zaxarli o'simliklar",
+    "color": const Color.fromARGB(255, 136, 90, 21),
+  },
+];
+
+List<Map> sabzavot = [
   {
     "rasm": "asset/pomidor.png",
     "nomi": "Pomidor",
@@ -178,7 +223,7 @@ Sholg'om yoki oq sholg'om (Brassica rapa) o'zining oq, go'shtli ildizi uchun but
 """,
   },
 ];
-List<Map> list = [
+List<Map> mevalar = [
   {
     "rasm": "asset/olma.png",
     "nomi": "Olma",

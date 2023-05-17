@@ -2,9 +2,13 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 // ignore: unused_import
-import 'package:sabzavotlar/mevalar.dart';
-import 'package:sabzavotlar/sabzavotlar.dart';
-// import 'package:sabzavotlar/sabzavotlar.dart';
+import 'package:sabzavotlar/category.dart';
+// ignore: unused_import
+import 'package:sabzavotlar/screens/mevalar.dart';
+// ignore: unused_import
+import 'package:sabzavotlar/homepage.dart';
+// ignore: unused_import
+import 'package:sabzavotlar/screens/sabzavotlar.dart';
 
 class SpleshPage extends StatefulWidget {
   const SpleshPage({super.key});
@@ -21,7 +25,7 @@ class _SpleshPageState extends State<SpleshPage> {
       () => Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => const SabzavotlarPage(),
+          builder: (context) => const HomePage(),
         ),
       ),
     );

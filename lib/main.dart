@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 // ignore: unused_import
-import 'package:sabzavotlar/sabzavotlar.dart';
+import 'package:sabzavotlar/homepage.dart';
 // ignore: unused_import
-import 'package:sabzavotlar/splesh.dart';
+import 'package:sabzavotlar/screens/splesh.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Mevalar va Sabzavotlar',
       theme: ThemeData(
-        useMaterial3: true,
+        // useMaterial3: true,
         fontFamily: "Open_Sans",
         primarySwatch: Colors.blue,
       ),

@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 class CopyPage extends StatefulWidget {
   final String image;
   final String titles;
-  final String subtitles;
   final String malumot;
+  final String subtitles;
 
   const CopyPage({
     super.key,
     required this.titles,
-    required this.subtitles,
     required this.image,
     required this.malumot,
+    required this.subtitles,
   });
 
   @override
@@ -59,6 +59,7 @@ class _CopyPageState extends State<CopyPage> {
                     Text(
                       widget.subtitles,
                       style: const TextStyle(
+                        color: Colors.grey,
                         fontSize: 15,
                       ),
                     ),
