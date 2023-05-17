@@ -1,45 +1,54 @@
 import 'package:flutter/material.dart';
 
+
 List<Map> category = [
   {
     "rasm": "asset/sabzavotlar.png",
     "nomi": "Sabzavotlar",
     "color": const Color.fromARGB(255, 102, 167, 104),
+    "page": sabzavot,
   },
   {
     "rasm": "asset/bargli_o_simlik.png",
     "nomi": "Bargli o'simliklar",
     "color": const Color.fromARGB(255, 105, 156, 185),
+    "page": bargliosimliklar,
   },
   {
     "rasm": "asset/gul.png",
     "nomi": "Gullar",
     "color": Colors.blue,
+    "page": gullar,
   },
   {
     "rasm": "asset/mevalar.png",
     "nomi": "Mevalar",
     "color": const Color.fromARGB(255, 65, 148, 102),
+    "page": mevalar,
   },
   {
     "rasm": "asset/kaktus.png",
     "nomi": "Sukkulentlar",
     "color": const Color.fromARGB(255, 123, 172, 101),
+    "page": sukkulentlar,
   },
   {
     "rasm": "asset/carrot.png",
     "nomi": "Begona o'tlar",
     "color": const Color.fromARGB(255, 123, 172, 101),
+    "page": begona_o_tlar,
   },
   {
     "rasm": "asset/cabbage.png",
     "nomi": "Daraxtlar",
     "color": const Color.fromARGB(255, 105, 156, 185),
+    "page": daraxtlar,
   },
   {
     "rasm": "asset/beet.png",
     "nomi": "Zaxarli o'simliklar",
     "color": const Color.fromARGB(255, 136, 90, 21),
+    "page": zaxarli_otlar,
   },
 ];
 
@@ -365,3 +374,9 @@ Qurt boqish uchun ekiladigan T. navlari barg hosili moʻl, boʻyi baland, koʻp 
 """,
   },
 ];
+List<Map> bargliosimliklar = [];
+List<Map> gullar = [];
+List<Map> sukkulentlar = [];
+List<Map> begona_o_tlar = [];
+List<Map> daraxtlar = [];
+List<Map> zaxarli_otlar = [];

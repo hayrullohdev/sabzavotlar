@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 // ignore: unused_import
-import 'package:sabzavotlar/screens/mevalar.dart';
 import 'package:sabzavotlar/category.dart';
 
 class HomePage extends StatefulWidget {

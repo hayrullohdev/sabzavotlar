@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sabzavotlar/data/data.dart';
+import 'package:sabzavotlar/screens/listlar.dart';
 
 class CategoryPage extends StatefulWidget {
   const CategoryPage({super.key});
@@ -23,14 +24,13 @@ class _CategoryPageState extends State<CategoryPage> {
             child: GestureDetector(
               onTap: () {
                 setState(() {
-                  // Navigator.push(
-                  //     context,
-                  //     MaterialPageRoute(
-                  //       builder: (context) => CopyPage(
-                  //         titles: categorylist[index]["nomi"],
-                  //         image: categorylist[index]["rasm"],
-                  //       ),
-                  //     ));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) =>  ListlarPage(
+                          data: categorylist[index]["page"],
+                        ),
+                      ));
                 });
               },
               child: Container(
