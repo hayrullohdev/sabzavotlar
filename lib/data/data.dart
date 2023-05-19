@@ -11,15 +11,15 @@ List<Map> category = [
   {
     "rasm": "asset/bargli_o_simlik.png",
     "nomi": "Bargli o'simliklar",
-    "color1": const Color.fromARGB(255, 105, 156, 185),
+    "color1": const Color.fromARGB(255, 105, 176, 218),
     "color2": const Color.fromARGB(255, 22, 127, 189),
     "page": bargliosimliklar,
   },
   {
     "rasm": "asset/gul.png",
     "nomi": "Gullar",
-    "color1": Colors.blue,
-    "color2": const Color.fromARGB(255, 48, 126, 189),
+    "color1": const Color.fromARGB(255, 63, 157, 233),
+    "color2": const Color.fromARGB(255, 23, 107, 175),
     "page": gullar,
   },
   {
@@ -53,15 +53,14 @@ List<Map> category = [
   {
     "rasm": "asset/leaf.png",
     "nomi": "Zaxarli o'simliklar",
-    "color1": const Color.fromARGB(255, 136, 90, 21),
-    "color2": const Color.fromARGB(255, 150, 102, 31),
+    "color1": const Color.fromARGB(255, 206, 140, 41),
+    "color2": const Color.fromARGB(255, 126, 78, 8),
     "page": zaxarli_otlar,
   },
 ];
-
 List<Map> sabzavot = [
   {
-    "rasm": "asset/pomidor.png",
+    "rasm": "asset/pomidor.jpg",
     "nomi": "Pomidor",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -72,7 +71,7 @@ Pomidor ilk bor Amerika materigida kelib chiqqan. Keyinchalik ispanlar Amerikada
 Pomidor ham pishirilmasdan, ham turli taomlar va qaylalar yoki ichimliklar ingrediyenti sifatida isteʼmol qilinadi. Pomidor oʻsimligi odatda 1-3 metr balandlikkacha oʻsa oladi. Poyasi boʻsh boʻlib, koʻpincha yerda tarqalib va boshqa oʻsimliklarga chirmashib oʻsadi""",
   },
   {
-    "rasm": "asset/cucumber.png",
+    "rasm": "asset/bodring.jpg",
     "nomi": "Bodring",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -80,7 +79,7 @@ Bodring – (lotincha: Cucumis sativus) bir yillik, oʻt oʻsimlik. Vatani — H
 """,
   },
   {
-    "rasm": "asset/peppers.png",
+    "rasm": "asset/qalampir.jpg",
     "nomi": "Qalampir",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -88,7 +87,7 @@ Qalampir — Solanaceae (Ituzumdoshlarga) mansub chala buta, buta yoki koʻp yil
 """,
   },
   {
-    "rasm": "asset/potato.png",
+    "rasm": "asset/potato.jpg",
     "nomi": "Kartoshka",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -96,7 +95,7 @@ Kartoshka (lotincha: Solanum tuberosum L.) — Solanaceae (茄科, qié kē) oil
 """,
   },
   {
-    "rasm": "asset/istock.png",
+    "rasm": "asset/baqlajon.jpg",
     "nomi": "Baqlajon",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -104,7 +103,7 @@ Baqlajon (lotincha: Solánum melongéna L. (o'simliklar oilasi: Solanaceae)) ko�
 """,
   },
   {
-    "rasm": "asset/carrot.png",
+    "rasm": "asset/sabzi.jpg",
     "nomi": "Sabzi",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -112,7 +111,7 @@ Sabzini ilk marotaba Afg’onistonda iste’mol qilishgan bo’lib, u yerda u 4 
 """,
   },
   {
-    "rasm": "asset/cabbage.png",
+    "rasm": "asset/karam.jpg",
     "nomi": "Karam",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -137,7 +136,7 @@ Karam eng ko’p iste’mol qilinadigan sabzavotlardan biri hisoblanadi. Karamni
 """,
   },
   {
-    "rasm": "asset/beet.png",
+    "rasm": "asset/lavlagi.jpg",
     "nomi": "Lavlagi",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -145,7 +144,7 @@ Lavlagi (Beta) — shoʻradoshlar oilasiga mansub bir, ikki yillik oʻtsimon oʻ
 """,
   },
   {
-    "rasm": "asset/radish.png",
+    "rasm": "asset/redish.jpg",
     "nomi": "Rediska",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -158,7 +157,7 @@ Zararkunandalari: karamguldoshlar burgalari, qandalalar va boshqa; kasalliklari:
 """,
   },
   {
-    "rasm": "asset/salad_leaf.png",
+    "rasm": "asset/salat_bargi.jpg",
     "nomi": "Salat bargi",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -171,7 +170,7 @@ Salat bargaining juda ko'p turlari mavjud. Ularning xar hil ranglari va shakllar
 Noyob tarkibi: minimal kaloriya va maksimal qiymatlar salat - bu past kalorili mahsulot (100 g tarkibida faqat 16 kkal mavjud), unga quyidagilar kiradi: vitamin C, PP, E, B1, B2, B6, B9, K, H, kolin, beta-karotin, kaliy, magniy, xlor, kaltsiy, oltingugurt, fosfor, rux, selen, temir, uglevodlar, kul, shakar, azotli moddalar, yog'lar, suv, kraxmal, oqsillar, xun tolasi.""",
   },
   {
-    "rasm": "asset/cauliflower.png",
+    "rasm": "asset/caram.webp",
     "nomi": "Gulkaram",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -182,7 +181,7 @@ Gulkaram (Brassica oleracea L. var botrytis L.) —karamdoshlar oilasiga mansub 
 """,
   },
   {
-    "rasm": "asset/chisnok.png",
+    "rasm": "asset/sarimsoq_piyoz.jpg",
     "nomi": "Sarimsoq piyoz",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -190,7 +189,7 @@ Sarimsoq (Allium sativum) — piyozdoshlar oilasi piyozlar turkumiga mansub ikki
 """,
   },
   {
-    "rasm": "asset/onion.png",
+    "rasm": "asset/piyoz.webp",
     "nomi": "Piloz",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -200,14 +199,14 @@ Eng koʻp tarqalgan turi osh P. (A. cepa L.) tuproq unumdorligiga gʻoyat talabc
 """,
   },
   {
-    "rasm": "asset/bell_pepper.png",
+    "rasm": "asset/bulg'or_qalampir.jpg",
     "nomi": "Bulg'or qalampir",
     "turi": "Sabzavot",
     "ma'lumot": """
 Bolgar qalampiri (Capsicum annuum L), chuchuk garmdori — tomatdoshlarga mansub bir yillik sabzavot ekini. Vatani — Amerika. Barcha mamlakatlarda yetishtiriladi. Markaziy Osiyoda, ayniqsa Oʻzbekistonda koʻp ekiladi. Tupi oʻrtacha, tik, kam barg, yashil. Koʻkarib chiqqandan keyin mevasi 130—138 kunda yetiladi. Bargi yirik (boʻyi 10—11 sm, eni 5—6 sm), tuxumsimon, yashil. Gultoj barglari oq, gulkosasi yalpoq. Mevasi oʻrtacha, boʻyi 8—8,5 sm, eni 4,5—5 sm, ogʻirligi 60—115 g, yashil, ayrim navlari pishganda kizil rangga kiradi. Pusti dagʻalroq, eti 2–3 mm, tarkibida 10— 11% quruq modda, 2—6% qand, kraxmal, 1,5% oqsil, yogʻ, kletchatka, vitamin S (100 g da 800 mg), oz miqdorda vitamin V, va V2, karotin bor. Urugʻi fevral boshida parnik yoki issiqxonaga sepiladi. 8—12 kunda maysalari koʻrinib qoladi. Birinchi chinbarg chiqarganda koʻchirib, 5—8 sm oralikda oʻtqaziladi. Koʻchatlari parnikda 5—10 kun oralatib, ikki marta (10 l suvga 7—8 g selitra, 25 g superfosfat va 15 g kaliy tuzi) oziklantiriladi. Koʻchatlar dalaga aprelning birinchi yarmida 70x30 sm oraliq bilan ekiladi. Har gektar yerga 100 kg sof azot, 120 kg sof fosfor, 60 kg sof kaliy hisobidan mineral oʻgʻit va 10—15 t chirigan goʻng solinadi. Goʻngning hammasi, fosfor va kaliyli mineral oʻgʻitning 75% kuzgi shudgorlash oldidan, qolgan qismi va azotli oʻgʻit oʻsish davrida yerga solinadi. Dastlab har 8—10 kunda, keyin har 11 — 13 kunda sugʻorilib, qator oralari 4—5-marta yumshatiladi. Yetilishiga qarab bir necha marta terib olinadi. Har gektardan 300 s gacha hosil beradi. Ovqatga ishlatiladi va konservalar tayyorlanadi. Oʻzbekistonda ekiladigan navlari: Bolgar 79. Oʻrtapishar nav, mevasi yashil, kesik piramida shaklida.""",
   },
   {
-    "rasm": "asset/soup.png",
+    "rasm": "asset/osh_qovoq.webp",
     "nomi": "Osh qovoq",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -215,7 +214,7 @@ Qovoq — qovoqdoshlar oilasiga mansub bir va koʻp yillik oʻsimliklar turkumig
 """,
   },
   {
-    "rasm": "asset/gren_onion.png",
+    "rasm": "asset/kok_piyoz.webp",
     "nomi": "Ko'k piyoz",
     "turi": "Sabzavot",
     "ma'lumot": """
@@ -231,7 +230,7 @@ Shuningdek, yangi ko‘k piyoz ishtahani ochadi va taomni ko‘rkam qiladi. Ko�
 """,
   },
   {
-    "rasm": "asset/turnip.png",
+    "rasm": "asset/shalg'om.webp",
     "nomi": "Shalg'om",
     "turi": "Sabzavot",
     "ma'lumot": """
