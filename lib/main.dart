@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Mevalar va Sabzavotlar',
       theme: ThemeData(
-        // useMaterial3: true,
+        useMaterial3: true,
         fontFamily: "Open_Sans",
         primarySwatch: Colors.blue,
       ),
