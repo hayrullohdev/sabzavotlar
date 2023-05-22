@@ -528,5 +528,66 @@ Qorashag'zoda (Ficus) — tutdoshlar oilasiga mansub oʻsimliklar turkumi. Doim 
 ];
 List<Map> sukkulentlar = [];
 List<Map> begona_o_tlar = [];
-List<Map> daraxtlar = [];
+List<Map> daraxtlar = [
+  {
+    "rasm": "asset/chinor.jpg",
+    "nomi": "Chinor",
+    "turi": "Daraxt",
+    "ma'lumot": """
+Chinor (Platanus) — chinordoshlar oilasiga mansub barg toʻkuvchi oʻsimliklar turkumi; 10 turi maʼlum. Shim. Amerika (Kanadadan Meksikagacha), Janubiy Sharqiy Yevropa va Oʻrta dengizboʻyi mamlakatlaridan Hindixitoygacha boʻlgan hududda tarqalgan. Kavkaz, Qrim, Oʻrta Osiyoda sharq chinori (P.orientalis), Janubiy Ukraina, Qora dengiz sohillari, shuningdek, Oʻrta Osiyoda Shimoliy Amerikadan keltirilgan gʻarb chinori (P.occudentalis) turlari oʻstiriladi. Sharq chinori yovvoyi holda oʻsadi. Shoxshabbasi qalin, boʻyi baland (50 m gacha), tanasi baquvvat (aylanasi 18 m gacha), silindrsimon, poʻstlogʻi sargʻishoq. Oʻzbekistonda manzarali chinorning har ikki turi oʻsadi. Novdalari va barglari yoshligida tukli, keyinchalik tuklari toʻkilib ketadi. Barglari yirik, asosan, 3 (baʼzan 7) boʻlmali. Mevasi dumaloq, dagʻal tukli yongʻoqcha, diametri 1,5 sm, meva bandida 2—5 tadan oʻrnashgan, uzoq vaqt toʻkilmaydi. Aprelda gullab, mevasi may—sentabr da yetiladi. Chinor, ayniqsa, yoshligida tez oʻsadi. Qulay sharoitda 2000-yil va undan ham koʻproq yashaydi. Egey dengizidagi Krit o.da tanasi aylanasi 18 m boʻlgan 2300-yillik chinorlar bor. Surxondaryo, Namangan va Samarqand viloyatlarida 600—800 yoshli chinorlar uchraydi.
+
+Chinor urugʻini ekib, qalamchasidan va ildiz bachkilaridan koʻpaytiriladi. Chinorning yogʻochi yengil, pishiq, mebel sanoatida qadrlanadi. Uning yogʻochidan oʻzbek meʼmorligida qadimdan foydalanib kelingan.
+""",
+  },
+  {
+    "rasm": "asset/terak.jpg",
+    "nomi": "Terak",
+    "turi": "Daraxt",
+    "ma'lumot": """
+Terak (Populus L.) — toldoshlar oilasiga mansub daraxtlar turkumi. Ayrim maʼlumotlarga koʻra, 100 dan ortiq, turi bor. 30 ga yaqin turi Yevrosiyo, Shim. Amerika va Shimoliy Afrikada Tarkalgan. Oʻzbekistonda terakning koʻkyaproqli T. yoki zangori bargli T. (P. pruinosa Schrenk), furot T.i (P. euphratica Olid.), mirzaterak (P. nigra L.), afgʻon T.i (R. afghanica), oq terak (P. alba), Baxofen teragi yoki koʻkterak (P.bachofenu Wierzb.) turlari oʻsadi. Mirzaterak, koʻkterak, oqterak turlari koʻp ekiladi. Teraklarning baʼzi turlari boʻyi 30— 45 (baʼzan 60) m gacha, diametri 1,5 (ayrim daraxtlariniki 3) m gacha yetadi. T.lar tanasi tik, shoxshabbasi tuxumsimon, piramidasimon, keng ovalsimon boʻladi. Barglari bandli, ketmaket, barg plastinkasi yaxlit yoki kertikli, nashtarsimon. Kuchalasi silindrsimon, boshoqsimon toʻpgul, gullagandan keyin toʻkiladi. Guli bir jinsli, ikki uyli. Aksariyati barg yozishdan oldin, baʼzilari barg yozgandan keyin gullaydi. Urugʻi koʻsakcha, shamol va suv yordamida tarqaladi. Nam tuprokda tez unib chiqadi. T. issiqsevar, yorugʻsevar, sovuqqa bardoshli (mas., mirzaterak) oʻsimlik. Sernam va unumdor tuproklarda tez yetiladi, lekin baʼzilari shoʻrxok tuproqni xush koʻrmaydi. T. qisqa umrli (25—30 yoshgacha yaxshi rivojlanadi) daraxt boʻlsa ham 150—200 yil umr koʻradiganlari gʻam (mirzaterak va oqterakning ayrim daraxtlari) bor.
+
+Terakzorlar sof va aralash holda tashkil etiladi. Qayir yerlar sharoitida T. qayragʻoch, qandagʻoch va butalar bilan birga yetishtiriladi. Oʻrmonchilik rivojlangan mamlakatlarda T.ni koʻpaytirishda yangi yigʻib olingan urugʻlari sepilib, dastlab koʻchat (1 ga maydondan 400—500 ming tup) olinadi. Bir yillik koʻchatlardan 2yili terakzorlar barpo etiladi. Oʻzbekiston sharoitlarida bir yillik novdalardan olingan kalamchalardan (uz. 30—35 sm) koʻpaytiriladi (yoʻl yoqalari, ariqboʻylariga bir qatorlab ekilganda tuplar orasi 0,8–1 m, terakzorlarda 0,8—1xZ m sxemada ekiladi), ildizidan bachkilab, toʻnkasidan oʻsib chiqib ham koʻpayadi. Qulay sharoit boʻlsa va terak yetishtirish texnologiyasiga rioya etilsa, 25—30 yoshida gektaridan (Oʻzbekistonda, hatto 15—20 yilda) yetilgan (8—10 yoshida ishga yaroqli) 500–900 m³ gacha yogʻoch olinadi. T.lar turlari tez oʻsishi, manzarali boʻlishi va joy tanlamasligi sababli ihota va oʻrmon muhofazasi, koʻkalamzorlashtirish ishlarida muhim ahamiyat kasb etgan (qarang Dala ihota oʻrmonzorlari).
+
+T. yogʻochi imorat qurilishida, yogʻochni qayta ishlash, mebel sanoatida ishlatilishidan tashqari sellyulozaqogoz sanoati uchun muhim xom ashyodir. Uning yogʻochi gidrolizlanib etil spirta olinadi. T. sellyulozasidan gazlama, kord tolasi tayyorlanadi. Gugurt ishlab chiqarish.da ishlatiladi. T., asosan, ihota oʻrmonlar hosil qilish uchun koʻp ekiladi. Keyingi yillarda Oʻzbekistonda imoratbop qurilish materiallari olish maqsadida terakzor maydonlar koʻp tashkil qilinmoqda. Amerika va Yevropadan tez yetiladigan T. navlari keltirib ekilmoqda. Oʻzbekiston Respublikasi Vazirlar Mahkamasining 1994-yil 8 fevraldagi "Sanoat terakchiligini rivojlantirish va boshqa tez oʻsuvchi yogʻochbop daraxtzorlarni barpo etishga oid choratadbirlar toʻgʻrisida"gi qarori eʼlon qilinib, mamlakat hududida har yili 10 ming gektar maydonda terakzorlar tashkil etish rejasi belgilangandan keyin bu sohaga, terakchilikka jiddiy eʼtibor berila boshlandi.
+
+
+""",
+  },
+  {
+    "rasm": "asset/qayin.jpg",
+    "nomi": "Qayin",
+    "turi": "Daraxt",
+    "ma'lumot": """
+Qayin — qayindoshlar oilasiga mansub barg toʻkuvchi daraxt va butalar turkumi. Oq Qayin, kareliya Qayini, yumshoq yoki tukli Qayin, dauriya Qayin yoki qora Qayin, yapaloq bargli Qayin kabi 100 ga yaqin turi maʼlum. Asosan, Shimoliy yarim sharning moʻtadil va sovuq iqlimli rayonlari hamda subtropik mamlakatlarida tarqalgan. Gʻarbiy Yevropaning 65° gacha shimoliy kengliklarida, Rossiya Yevropa qismining oʻrmon va oʻrmondasht zonasida, Gʻarbiy Sibir, Zabaykalye, Sayan, Oltoy va Kavkazda uchraydi. Ignabarglilar va bargli daraxtlar bilan aralash oʻsib, keng Qayin oʻrmonlari hosil qiladi.
+
+
+Betula pendula
+Oʻrta Osiyoda 2 turi: Turkiston va Tyanshan Qayinlari tarqalgan. Toʻqayzorlarda, 5—6 ga maydonlarda alohida yoki aralash oʻrmonlar tashkil qilib, togʻ daryolari qirgʻoqlarida ingichka polosalar holida oʻsadi. Baʼzi joylarda yongʻoqzorlar, archazorlar, oqqaragʻayzorlarda tabiiy holda uchraydi. Turkiston Qayini (B. turkestanica) Tyanshan-Olay togʻ daryolari boʻylarida uchraydi. Boʻyi 8–17 m. Poʻstlogʻi oqsariq, tanasidan tez koʻchadi. Barglari ketmaket joylashgan tuxumsimon, tigʻsimon. Gullari ayrim jinsli, bir uyli oʻsimlik. Toʻpguli kuchala. Aprel oyida gullab, oktabrda urugʻlaydi. Tyanshan Qayini yoki qizil Qayin (B. tianschanica) Tyanshan togʻlari vo’diylarida yakka holda yoki toʻptoʻp boʻlib uchraydi. Daraxtining boʻyi 20 m gacha yetadi. Shoxshabbalari keng, qalin. Poʻstlogʻi qatlamqatlam. Barglari toʻq kulrangyashil, rombsimon. Yosh novdalarida smolali soʻgallari bor. 8—15 yoshidan gullay boshlaydi. Qayin yorugʻsevar, sovuqqa chidamli, qurgʻoqchilikka bardoshli. Turli tuproqiqlim sharoitlarida oʻsa oladi. 40—120 (150) yil yashaydi. Qayindan shaharlarni koʻkalamzorlashtirishda foydalaniladi, yogʻochidan parket, faner, changʻi va boshqalar, ayrim turlarining yogʻochidan qimmatbaho mebel tayyorlanadi. Poʻstlogʻidan qatron, barglaridan boʻyoq olinadi, kurtagi va kuchalasi qushlar uchun yaxshi ozuqa. Qayin sharbati, kurtagining qaynatmasi va tindirmasi tibbiyotda qoʻllaniladi.
+""",
+  },
+  {
+    "rasm": "asset/archa.jpg",
+    "nomi": "Archa",
+    "turi": "Daraxt",
+    "ma'lumot": """
+Archa (lotincha: Juniperus) — sarvdoshlar oilasiga mansub doim yashil daraxt va butalar turkumi. 70 ga yaqin turi bor. Archaning bir jinsli, bir yoki ikki uyli, shamol yordamida changlanuvchi, ignabargli oʻsimlik. Archaning erkaklik qubbasi sargʻish, 3 — 6 changdonli qipiqsimon changchilardan tashkil topgan. Urgʻochi qubbalari yashil boʻlib, qarama-qarshi yoki ol-dinma-keyin oʻrnashgan urugʻchibarg va urugʻkurtaklardan iborat. Qubbalari yumaloq (diametri 5 — 20 mm), ichida 1 — 10 dona urugʻ bor. Archa mart-may oylarida gullaydi. Mevasi qoʻngʻir, ik-kinchi yili (sentabr — noyabrda) pishib, qish yoki bahorda toʻkiladi. Archa urugʻini yaxshi undirish uchun uni yezda stratifikatsiya qilib, kuzda sepiladi. 2 — 3 yoshli koʻchati ekiladi. Archaning koʻpchiligi oʻrta min-taqalarda oʻsadi. Baʼzi turlari tropik hududlardagi togʻlarda ham uchraydi. J. semiglobosa (sovur Archa.), J. turkestanica (oʻrik Archa.), J. sabina (qora Archa.) va J. seravschanica (Zarafshon Archasi.) kabi turlari Oʻrta Osiyo, xususan Oʻzbekiston togʻlarida tarqalgan boʻlib, maxsus archazorlarni tashkil qiladi. Archaning xoʻjalikdagi ahamiyati katta. Yogʻochi meʼmorlikda, oʻymakorlikda va qalam yasashda ishlatiladi. Baʼzi turlaridan xushmanzara oʻsimlik sifatida foydala-niladi. Qubbalaridan turli moddalar (efir moyi, qatron, qand, mum va organik kislotalar) olinadi. Qubbasining damlamasi tabobatda siydik haydovchi, balgʻam koʻchiruvchi va ovqat hazm qilishni yaxshilovchi dori sifatida ishlatiladi. Oʻrta Osiyodagi turlaridan olinadigan efir moyining sedrol fraksiyasi esa jarohatni, suyakning teshilib oqishini davolashda qoʻllaniladi
+""",
+  },
+  {
+    "rasm": "asset/majnuntol.jpg",
+    "nomi": "Majnuntol",
+    "turi": "Daraxt",
+    "ma'lumot": """
+Majnuntol (Salix babylonica L.) -toldoshlar oilasiga mansub daraxt. Boʻyi 8–10 m cha. Poyasi tik, novdalari tuksiz, yaltiroq, uzun va ingichka, egilib oʻsadi. Bir yillik novdalari esa mayin tuk bilan qoplangan. Bargi oddiy, nashtarsimon poyada ketma-ket joylashgan. Guli bir jinsli, toʻpguli kuchalasimon. Mart—aprelda gullaydi, urugʻi tukli. M. manzarali daraxt sifatida koʻp oʻstiriladi. Novdalaridan savatlar, shisha idishlarning gʻiloflari, har xil mebel anjomlari va boshqa toʻqiladi. M. qogoz ishlab chiqarish va teri oshlashda ham ishlatiladi.
+""",
+  },
+  {
+    "rasm": "asset/bambuk.jpg",
+    "nomi": "Bambuk",
+    "turi": "Daraxt",
+    "ma'lumot": """
+Bambuk (malayya tilidan bambu) — 1) gʻarov (Bambusa) — boshoqdoshlar oilasiga mansub oʻsimliklar turkumi, 200 dan ortiq turi maʼlum, aksariyati koʻp yillik, faqat ayrimlari bir yillik oʻsimlik. Poyasining diametri 30 sm gacha, boʻyi 40 m gacha boradi. Baʼzi turlari har yili, boshqalari bir necha yilda bir marta gullaydi. B. yer yuzining deyarli barcha nam iqlimli tropik hududlarida oʻsadi. Saxalin va Kuril orollaridagi igna bargli va yaproqli oʻrmonlarning soya joylarida B.ning 6 turi uchraydi. B. xalq xoʻjaligida uy, koʻprik qurish, duradgorlikda ishlatiladi, tolasidan — qogʻoz tayyorlanadi. Ayrim turlarining shirasidan qand olinadi. Keyingi vaqtlarda Qora dengizning Kavkaz va Qrim sohillarida ham ekila boshlandi; 2) sirkda ishlatiladigan gimnastika asbobi. Sirk gumbaziga osib qoʻyiladigan langar choʻp (ilgari bambukdan qilinar edi, hozir yengil metalldan yasaladi); 3) gimnastikachilar koʻrsatadigan mashqning nomi. Uni 1 — 3 ijrochi bajaradi.
+""",
+  },
+];
 List<Map> zaxarli_otlar = [];
